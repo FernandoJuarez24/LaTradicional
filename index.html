@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>El Milagro</title>
+
+	<!--Estilos-->
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/modales.css">
+
+	<!--Fuente-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="imgHeader">
+			<div class="infoHeader">
+				<h1>La Tradicional</h1>
+				<hr>
+				<p>Panaderia y Reposteria</p>
+				<span class="btnDown" id='abajo'><i class="fas fa-chevron-down"></i></span>
+			</div>
+		</div>
+
+		<!--Menú de Navegacion-->
+		<nav class="menu">
+			<div class="logo">
+				<h1><a href="#">La Tradicional</a></h1>
+				<span class="btnMenu"><i class="fas fa-bars"></i></span>
+			</div>
+
+			<div class="contenedorLinks">
+				<!--<ul class="links">
+					<li><a href="#pasteles">Pasteles</a></li>
+					<li><a href="#panes">Panaderia</a></li>
+					<li><a href="#nosotros">Conócenos</a></li>
+					<li><a href="#testimonios">Testimonios</a></li>
+				</ul>-->
+
+					<ul class='links'>
+						<li><a>Productos</a>
+							<ul class="productos">
+								<li><a href="#pasteles">Pasteles</a></li>
+								<li><a href="#panes">Panaderia</a></li>
+								<!--<li><a href="#postres">Mesa de Postres</a></li>
+								<li><a href="#tamales">Tamales</a></li>
+								<li><a href="#gelatinas">Gelatinas</a></li>
+								<li><a href="">Bocadillos</a></li>
+								<li><a href="">Chocolateria</a></li>-->
+							</ul>
+						</li>
+						<li><a href="#nosotros">Conócenos</a></li>
+						<li><a href="#testimonios">Testimonios</a></li>
+					</ul>
+				</div>
+		</nav>
+	</header>
+
+	<main id="main">
+
+		<!--SECCION PASTELES-->
+		<section class="pasteles">
+			<div class="tituloPasteles" id='pasteles'>
+				<h1>Pasteles</h1>
+			</div>
+
+			<div class="contenedorPasteles">
+				<div class="imgCardPasteles">
+					<img src="img/pasteles/01.jpg" alt="">
+				</div>
+				<div class="imgCardPasteles">
+					<img src="img/pasteles/02.jpg" alt="">
+				</div>
+				<div class="imgCardPasteles">
+					<img src="img/pasteles/03.jpg" alt="">
+				</div>
+				<div class="imgCardPasteles">
+					<img src="img/pasteles/04.jpg" alt="">
+				</div>
+				<div class="imgCardPasteles">
+					<img src="img/pasteles/05.jpg" alt="">
+				</div>
+				<div class="imgCardPasteles">
+					<img src="img/pasteles/06.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="modalPasteles">
+				<span class="cierreModalPasteles"><i class="fas fa-times"></i></span>
+
+				<img src="" alt="" id='imgModalPasteles'>
+
+				<div class="captionModalPasteles"></div>
+
+				<div class="listaGaleriaPasteles">
+					<img src="img/pasteles/01.jpg" alt="">
+					<img src="img/pasteles/02.jpg" alt="">
+					<img src="img/pasteles/03.jpg" alt="">
+					<img src="img/pasteles/04.jpg" alt="">
+					<img src="img/pasteles/05.jpg" alt="">
+					<img src="img/pasteles/06.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<!--SECCION PANES-->
+		<section class="panes">
+			<div class="tituloPanes" id='panes'>
+				<h1>Panaderia</h1>
+			</div>
+			<div class="contenedorPanes">
+				<div class="imgCardPanes">
+					<img src="img/panes/01.jpg" alt="">
+				</div>
+				<div class="imgCardPanes">
+					<img src="img/panes/02.jpg" alt="">
+				</div>
+				<div class="imgCardPanes">
+					<img src="img/panes/03.jpg" alt="">
+				</div>
+				<div class="imgCardPanes">
+					<img src="img/panes/04.jpg" alt="">
+				</div>
+				<div class="imgCardPanes">
+					<img src="img/panes/05.jpg" alt="">
+				</div>
+				<div class="imgCardPanes">
+					<img src="img/panes/06.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="modalPanes">
+				<span class="cierreModalPanes"><i class="fas fa-times"></i></span>
+
+				<img src="" alt="" id='imgModalPanes'>
+
+				<div class="captionModalPanes"></div>
+
+				<div class="listaGaleriaPanes">
+					<img src="img/panes/01.jpg" alt="">
+					<img src="img/panes/02.jpg" alt="">
+					<img src="img/panes/03.jpg" alt="">
+					<img src="img/panes/04.jpg" alt="">
+					<img src="img/panes/05.jpg" alt="">
+					<img src="img/panes/06.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<!--
+		<!--SECCION MESA DE POSTRES
+		<section class="postres">
+			<div class="tituloPostres" id='postres'>
+				<h1>Mesa de Postres</h1>
+			</div>
+			<div class="contenedorPostres">
+				<div class="imgCardPostres">
+					<img src="img/postres/01.jpg" alt="">
+				</div>
+				<div class="imgCardPostres">
+					<img src="img/postres/02.jpg" alt="">
+				</div>
+				<div class="imgCardPostres">
+					<img src="img/postres/03.jpg" alt="">
+				</div>
+				<div class="imgCardPostres">
+					<img src="img/postres/04.jpg" alt="">
+				</div>
+				<div class="imgCardPostres">
+					<img src="img/postres/05.jpg" alt="">
+				</div>
+				<div class="imgCardPostres">
+					<img src="img/postres/06.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="modalPostres">
+				<span class="cierreModalPostres"><i class="fas fa-times"></i></span>
+
+				<img src="" alt="" id='imgModalPostres'>
+
+				<div class="captionModalPostres"></div>
+
+				<div class="listaGaleriaPostres">
+					<img src="img/postres/01.jpg" alt="">
+					<img src="img/postres/02.jpg" alt="">
+					<img src="img/postres/03.jpg" alt="">
+					<img src="img/postres/04.jpg" alt="">
+					<img src="img/postres/05.jpg" alt="">
+					<img src="img/postres/06.jpg" alt="">
+
+				</div>
+			</div>
+		</section>
+
+		<!--SECCION MESA DE TAMALES
+		<section class="tamales">
+			<div class="tituloTamales" id='tamales'>
+				<h1>Tamales</h1>
+			</div>
+			<div class="contenedorTamales">
+				<div class="imgCardTamales">
+					<img src="img/tamales/01.jpg" alt="">
+				</div>
+				<div class="imgCardTamales">
+					<img src="img/tamales/02.jpg" alt="">
+				</div>
+				<div class="imgCardTamales">
+					<img src="img/tamales/03.jpg" alt="">
+				</div>
+				<div class="imgCardTamales">
+					<img src="img/tamales/04.jpg" alt="">
+				</div>
+				<div class="imgCardTamales">
+					<img src="img/tamales/05.jpg" alt="">
+				</div>
+				<div class="imgCardTamales">
+					<img src="img/tamales/06.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="modalTamales">
+				<span class="cierreModalTamales"><i class="fas fa-times"></i></span>
+
+				<img src="" alt="" id='imgModalTamales'>
+
+				<div class="captionModalTamales"></div>
+
+				<div class="listaGaleriaTamales">
+					<img src="img/tamales/01.jpg" alt="">
+					<img src="img/tamales/02.jpg" alt="">
+					<img src="img/tamales/03.jpg" alt="">
+					<img src="img/tamales/04.jpg" alt="">
+					<img src="img/tamales/05.jpg" alt="">
+					<img src="img/tamales/06.jpg" alt="">
+
+				</div>
+			</div>
+		</section>
+
+		<!--SECCION MESA DE GELATINAS
+		<section class="gelatinas">
+			<div class="tituloGelatinas" id='gelatinas'>
+				<h1>Gelatinas</h1>
+			</div>
+			<div class="contenedorGelatinas">
+				<div class="imgCardGelatinas">
+					<img src="img/gelatinas/01.jpg" alt="">
+				</div>
+				<div class="imgCardGelatinas">
+					<img src="img/gelatinas/02.jpg" alt="">
+				</div>
+				<div class="imgCardGelatinas">
+					<img src="img/gelatinas/03.jpg" alt="">
+				</div>
+				<div class="imgCardGelatinas">
+					<img src="img/gelatinas/04.jpg" alt="">
+				</div>
+				<div class="imgCardGelatinas">
+					<img src="img/gelatinas/05.jpg" alt="">
+				</div>
+				<div class="imgCardGelatinas">
+					<img src="img/gelatinas/06.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="modalGelatinas">
+				<span class="cierreModalGelatinas"><i class="fas fa-times"></i></span>
+
+				<img src="" alt="" id='imgModalGelatinas'>
+
+				<div class="captionModalGelatinas"></div>
+
+				<div class="listaGaleriaGelatinas">
+					<img src="img/gelatinas/01.jpg" alt="">
+					<img src="img/gelatinas/02.jpg" alt="">
+					<img src="img/gelatinas/03.jpg" alt="">
+					<img src="img/gelatinas/04.jpg" alt="">
+					<img src="img/gelatinas/05.jpg" alt="">
+					<img src="img/gelatinas/06.jpg" alt="">
+
+				</div>
+			</div>
+		</section>-->
+
+		<!--SECCION NOSOTROS-->
+		<div id="nosotros"></div>
+		<section class="nosotros">
+			<!--Degradado-->
+			<div class="degradado"></div>
+			<div class="ejeZ">
+
+			<div class="tituloNosotros">
+				<h1>Conócenos</h1>
+			</div>
+
+			<div class="contenedorNosotros">
+				<p>
+					La Tradicional fue fundada en Julio del 1990 como una empresa familiar, contando para entonces con una sucursal donde todo el proceso estaba a cargo de 2 trabajadores.
+					<br><br>
+					A lo largo de estos años, se han abierto exitosamente cada vez más sucursales, para llegar a todos los clientes de fino paladar, pues la elegancia, calidad y servicio, es lo que los distingue.
+
+				</p>
+
+				<!--
+				<div class="redesSociales">
+					<!--Instagram
+					<a href=""><i class="fab fa-instagram"></i></a>
+
+						<!--Facebook
+					<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+
+						<!--Twitter
+					<a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+
+						<!--Tiktok
+					<a href="" target="_blank"><i class="fab fa-tiktok"></i></a>
+				</div>
+
+				<div class="contacto">
+					<img src="" alt="">
+				</div>-->
+			</div>
+		</section>
+
+		<!--Testimonios-->
+		<section class="testimonios" id='testimonios'>
+			<div class="tituloTestimonios">
+				<h1>Testimonios</h1>
+			</div>
+
+			<div class="contenedorTestimonios">
+				<div class="card">
+					<div class="cardImg">
+						<img src="img/testimonio/01.jpg" alt="">
+					</div>
+					<div class="textoCard">
+						<h4>Alicia M.</h4>
+						<p>Me encanto el pastel que me hicieron para el cumpleaños de mi novio.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="cardImg">
+						<img src="img/testimonio/02.jpg" alt="">
+					</div>
+					<div class="textoCard">
+						<h4>Carlos P.</h4>
+						<p>Su pan dulce acompaña perfectamente mi café de la mañana..</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="cardImg">
+						<img src="img/testimonio/03.jpg" alt="">
+					</div>
+					<div class="textoCard">
+						<h4>Juan Z.</h4>
+						<p>Una de las pocas panaderías con ese sabor tradicional.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!--HOME-->
+	<div class="home">
+		<span class="fas fa-level-up-alt"></span>
+	</div>
+
+	<!--FOOTER-->
+	<footer class="footer">
+		<p>&copy; La Tradicional - Panaderia y Reposteria | Derechos Reservados 2021</p>
+	</footer>
+
+	<!--Scripts-->
+	<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
+	<script src="js/modalPasteles.js"></script>
+	<script src="js/modalPanes.js"></script>
+</body>
+</html>
