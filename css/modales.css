@@ -358,12 +358,13 @@
 		padding: 20px;
 	}
 	.pasteles .contenedorPasteles{
-		grid-template-columns:repeat(1, 1fr);
+		display: block;
 		padding-bottom:250px;
 	}
 	.panes .contenedorPanes{
-		grid-template-columns:repeat(1, 1fr);
+		display: block;
 		padding-bottom:250px;
+
 	}
 	.pasteles .tituloPasteles{
 		width: 100%;
@@ -374,6 +375,10 @@
 	.testimonios .tituloTestimonios{
 		width: 100%;
 	}
+	.modalPasteles #imgModalPasteles{
+		height: 300px;
+		margin-top: 150px;
+	}
 	.modalPanes #imgModalPanes{
 		height: 300px;
 		margin-top: 150px;
@@ -381,4 +386,10 @@
 	.footer p{
 		font-size: 10px;
 	}
+	.pasteles .contenedorPasteles .imgCardPasteles:hover img{
+		transform:none;
+	}
+	.panes .contenedorPanes .imgCardPanes:hover img{
+	transform:none;
+}
 }
