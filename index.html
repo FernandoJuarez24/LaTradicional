@@ -13,6 +13,18 @@
 	<!--Fuente-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
+	<!--Descripcion-->
+	<meta name="descripcion" content="La Tradicional fue fundada en Julio del 1990 como una empresa familiar, contando para entonces con una sucursal donde todo el proceso estaba a cargo de 2 trabajadores. A lo largo de estos años, se han abierto exitosamente cada vez más sucursales, para llegar a todos los clientes de fino paladar, pues la elegancia, calidad y servicio, es lo que los distingue.">
+
+	<!--Keywords-->
+	<meta name="keywords" content="panaderia, pasteles, panes, reposteria">
+
+	<!--Favicon-->
+	<link rel="icon" href="icon.png" type="image/png" />
+
+	<!--Animaciones-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header class="header">
@@ -55,7 +67,7 @@
 				<h1>Pasteles</h1>
 			</div>
 
-			<div class="contenedorPasteles">
+			<div class="contenedorPasteles" data-aos="fade-up" data-aos-duration="1000">
 				<div class="imgCardPasteles">
 					<img src="img/pasteles/01.jpg" alt="">
 				</div>
@@ -99,7 +111,7 @@
 			<div class="tituloPanes" id='panes'>
 				<h1>Panaderia</h1>
 			</div>
-			<div class="contenedorPanes">
+			<div class="contenedorPanes" data-aos="fade-up" data-aos-duration="1000">
 				<div class="imgCardPanes">
 					<img src="img/panes/01.jpg" alt="">
 				</div>
@@ -147,7 +159,7 @@
 						<h2>Conócenos</h2>
 					</div>
 
-					<p>
+					<p data-aos="zoom-in" data-aos-duration="1000">
 					La Tradicional fue fundada en Julio del 1990 como una empresa familiar, contando para entonces con una sucursal donde todo el proceso estaba a cargo de 2 trabajadores.
 					<br><br>
 					A lo largo de estos años, se han abierto exitosamente cada vez más sucursales, para llegar a todos los clientes de fino paladar, pues la elegancia, calidad y servicio, es lo que los distingue.
@@ -162,7 +174,7 @@
 				<h1>Testimonios</h1>
 			</div>
 
-			<div class="contenedorTestimonios">
+			<div class="contenedorTestimonios" data-aos="fade-down" data-aos-duration="1000">
 				<div class="card">
 					<div class="cardImg">
 						<img src="img/testimonio/01.jpg" alt="">
@@ -212,5 +224,8 @@
 	<script src="js/modalPasteles.js"></script>
 	<script src="js/modalPanes.js"></script>
 	<script src="js/menu.js"></script>
+	<!--Animaciones-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>AOS.init();</script>
 </body>
 </html>
