@@ -104,164 +104,7 @@
 	opacity:0.5;
 }
 
-/*GALERIA MODAL POSTRES*/
-.modalPostres{
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height: 100%;
-	background: rgba(0,0,0,0.8);
-	padding:40px;
-	z-index: 9999;
-	display:none;
-}
-.modalPostres .cierreModalPostres{
-	position:absolute;
-	top:20px;
-	right: 20px;
-	color:var(--blanco);
-	cursor:pointer;
-	font-size: 30px;
-	font-weight: bold;
-}
-.modalPostres .captionModalPostres{
-	color:var(--blanco);
-	display:flex;
-	justify-content: center;
-	font-size: 18px;
-	margin:20px 0;
-}
-.modalPostres #imgModalPostres{
-	width:60%;
-	margin:auto;
-	display: block;
-	height: 600px;
-	object-fit: cover;
-}
-.modalPostres .listaGaleriaPostres{
-	width: 100%;
-	margin-top:30px;
-	display:grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(1, 100px);
-}
-.listaGaleriaPostres img{
-	width:100%;
-	height: 100%;
-	cursor: pointer;
-	object-fit: cover;
-	transition:0.5s;
-}
-.listaGaleriaPostres img:hover{
-	opacity:0.5;
-}
 
-/*GALERIA MODAL TAMALES*/
-.modalTamales{
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height: 100%;
-	background: rgba(0,0,0,0.8);
-	padding:40px;
-	z-index: 9999;
-	display:none;
-}
-.modalTamales .cierreModalTamales{
-	position:absolute;
-	top:20px;
-	right: 20px;
-	color:var(--blanco);
-	cursor:pointer;
-	font-size: 30px;
-	font-weight: bold;
-}
-.modalTamales .captionModalTamales{
-	color:var(--blanco);
-	display:flex;
-	justify-content: center;
-	font-size: 18px;
-	margin:20px 0;
-}
-.modalTamales #imgModalTamales{
-	width:60%;
-	margin:auto;
-	display: block;
-	height: 600px;
-	object-fit: cover;
-}
-.modalTamales .listaGaleriaTamales{
-	width: 100%;
-	margin-top:30px;
-	display:grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(1, 100px);
-}
-.listaGaleriaTamales img{
-	width:100%;
-	height: 100%;
-	cursor: pointer;
-	object-fit: cover;
-	transition:0.5s;
-}
-.listaGaleriaTamales img:hover{
-	opacity:0.5;
-}
-
-/*GALERIA MODAL TAMALES*/
-.modalGelatinas{
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height: 100%;
-	background: rgba(0,0,0,0.8);
-	padding:40px;
-	z-index: 9999;
-	display:none;
-}
-.modalGelatinas .cierreModalGelatinas{
-	position:absolute;
-	top:20px;
-	right: 20px;
-	color:var(--blanco);
-	cursor:pointer;
-	font-size: 30px;
-	font-weight: bold;
-}
-.modalGelatinas .captionModalGelatinas{
-	color:var(--blanco);
-	display:flex;
-	justify-content: center;
-	font-size: 18px;
-	margin:20px 0;
-}
-.modalGelatinas #imgModalGelatinas{
-	width:60%;
-	margin:auto;
-	display: block;
-	height: 600px;
-	object-fit: cover;
-}
-.modalGelatinas .listaGaleriaGelatinas{
-	width: 100%;
-	margin-top:30px;
-	display:grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(1, 100px);
-}
-.listaGaleriaGelatinas img{
-	width:100%;
-	height: 100%;
-	cursor: pointer;
-	object-fit: cover;
-	transition:0.5s;
-}
-.listaGaleriaGelatinas img:hover{
-	opacity:0.5;
-}
 
 @media only screen and (max-width: 800px){
 	.modalPasteles #imgModalPasteles{
@@ -281,6 +124,12 @@
 	.imgHeader .infoHeader .btnDown{
 		font-size: 20px;
 		padding: 20px;
+	}
+	.pasteles .contenedorPasteles{
+		grid-template-rows: repeat(3, 200px);
+	}
+	.panes .contenedorPanes{
+		grid-template-rows: repeat(3, 200px);
 	}
 
 	/*ESTILOS PARA EL MENU RESPONSIVO*/
