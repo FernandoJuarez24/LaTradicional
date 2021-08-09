@@ -239,6 +239,9 @@
 		transform:none;
 	}
 	.panes .contenedorPanes .imgCardPanes:hover img{
-	transform:none;
-}
+		transform:none;
+	}
+	.contacto .contactoContenedor .formularioContenedor{
+		width: 100%;
+	}
 }
